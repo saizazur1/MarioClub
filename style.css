@@ -143,3 +143,74 @@ footer {
   color: white;
   padding: 20px;
 }
+
+/* Responsive Style */
+
+@media screen and (max-width: 1400px) {
+  .banner .welcome h2 {
+    font-size: 55px;
+  }
+  .banner .welcome {
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner .welcome h2 {
+    font-size: 35px;
+  }
+  nav li {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .banner .welcome {
+    position: relative;
+    left: 0px;
+    text-align: center;
+  }
+  nav li {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 750px) {
+  .images li {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  nav {
+    padding: 20px;
+    margin: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+  }
+
+  nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  nav li {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  header {
+    text-align: center;
+
+    background-color: #f63232;
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+  }
+}
