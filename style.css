@@ -1,6 +1,28 @@
+body {
+  margin: 0px;
+}
+
 header {
   text-align: center;
+
+  background-color: #f63232;
+  padding: 5px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
+
+header h1 {
+  font-size: 42px;
+  border: solid;
+  border-width: 8px;
+  border-radius: 30px;
+  border-color: white;
+  color: white;
+  display: inline-block;
+  padding: 5px 20px;
+}
+
 .banner {
   position: relative;
 }
@@ -15,6 +37,13 @@ header {
   left: 80px;
   background-color: #feb614;
   color: white;
-  padding: 10px;
-  font-size: 52px;
+  padding: 10px 50px;
+}
+
+.banner h2 {
+  font-size: 72px;
+}
+
+.banner h2 span {
+  font-size: 1.1em;
 }
